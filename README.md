@@ -2,6 +2,7 @@
 
 tracktrace allows you to track shipping containers across all major shipping lines as well as [Class 1](https://en.wikipedia.org/wiki/Railroad_classes#Class_I) North American railways.
 
+Major steamship lines all have container tracking on their websites and/or apps.
 
 ### Ocean
 
@@ -35,7 +36,7 @@ Railroads often require an account to track containers. At certain railroads, yo
 For example, BNSF doesn't show any tracking information if your company is not a Notify Party. UP, on the other hand, shows partial tracking information. 
 
 
-| Railroad | Supported | Need Account | Need to be a Notified Party |
+| Railroad | Supported | Need Account | Need to be a Notify Party |
 | ---- | :--: | :-------: | :---------: | 
 | BNSF Railway (BNSF) | Not yet | Yes | Yes |
 | Canadian National Railway (CN) | Not yet | Yes | Don't know | 
@@ -58,7 +59,6 @@ pip install tracktrace
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
 ```python
 from tracktrace import ocean
@@ -67,7 +67,6 @@ con = ocean.container.create("MSCU", "MEDU3288655")
 
 ```
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Release History
 
@@ -76,7 +75,7 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Meta
 
-Your Name – [dhruvkar](https://twitter.com/dhruvkar) – dhruv@wints.org
+Dhruv Kar – [dhruvkar](https://twitter.com/dhruvkar) – dhruv@wints.org
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
