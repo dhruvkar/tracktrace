@@ -103,6 +103,8 @@ class MSCUContainer(ShippingContainer):
 
             self.updates.append(temp)
 
+        return self.updates
+
 
 """
 class MSCContainer(ShippingContainer):
