@@ -37,16 +37,16 @@ Railroads often require an account to track containers. At certain railroads, yo
 For example, BNSF doesn't show any tracking information if your company is not a Notify Party. UP, on the other hand, shows partial tracking information. 
 
 
-[//]: # (| Railroad | Supported | Need Account | Need to be a Notify Party |)
-[//]: # (| ---- | :--: | :-------: | :---------: | )
-[//]: # (| BNSF Railway (BNSF) | :white_check_mark:| Yes | Yes |)
-[//]: # (| Canadian National Railway (CN) | :white_check_mark: | Yes | Don't know | )
-[//]: # (| Canadian Pacific Railway (CPR) | :white_check_mark:| Yes | Don't know |)
-[//]: # (| CSX Transportation (CSX) | :heavy_check_mark: | No | No | )
-[//]: # (| Ferromex | :white_check_mark: | Yes | Don't know | )
-[//]: # (| Kansas City Southern Railway (KCS)| :white_check_mark: | Yes | Don't know | )
-[//]: # (| Norfolk Southern Railway (NS) | :heavy_check_mark: | Yes | No |)
-[//]: # (| Union Pacific Railway (UP) | :white_check_mark: | Yes | No | )
+| Railroad | Supported | Need Account | Need to be a Notify Party |
+| ---- | :--: | :-------: | :---------: |
+| BNSF Railway (BNSF) | :white_check_mark:| Yes | Yes |
+| Canadian National Railway (CN) | :white_check_mark: | Yes | Don't know | 
+| Canadian Pacific Railway (CPR) | :white_check_mark:| Yes | Don't know |
+| CSX Transportation (CSX) | :white_check_mark: | No | No |
+| Ferromex | :white_check_mark: | Yes | Don't know |
+| Kansas City Southern Railway (KCS)| :white_check_mark: | Yes | Don't know |
+| Norfolk Southern Railway (NS) | :white_check_mark: | Yes | No |
+| Union Pacific Railway (UP) | :white_check_mark: | Yes | No |
 
 
 
