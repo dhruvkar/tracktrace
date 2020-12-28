@@ -12,8 +12,8 @@ class ContainerFactory(object):
         self._builders[key] = builder
 
 
-    def create(self, key, **kwargs):
-        builder = self._builders.get(key)
+    def create(self, scac, **kwargs):
+        builder = self._builders.get(scac)
         if not builder:
             raise ValueError(key)
 

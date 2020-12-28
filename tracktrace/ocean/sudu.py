@@ -17,9 +17,9 @@ class SUDUContainerBuilder(object):
         self._instance = None
 
 
-    def __call__(self, container_number, **_ignored):
+    def __call__(self, container, **_ignored):
         if not self._instance:
-            self._instance = SUDUContainer(container_number)
+            self._instance = SUDUContainer(container)
         return self._instance
 
 
@@ -53,17 +53,23 @@ class SUDUContainer(ShippingContainer):
         for i in ins:
             if i.attrs["name"] == "javax.faces.ViewState":
                 jvs = i.attrs["value"]
+
+        now = pendulum.now()
+
+        startdate = now.subtract(weeks=8).format("DD-MMM-YYYY") 
+        enddate = now.add(weeks=2).format("DD-MMM-YYYY")
+
         
         self.payload = {
             'javax.faces.partial.ajax': 'true',
-            'javax.faces.source': 'j_idt7:searchForm:j_idt9:search-submit',
-            'javax.faces.partial.execute': 'j_idt7:searchForm',
-            'javax.faces.partial.render': 'j_idt7:searchForm',
-            'j_idt7:searchForm:j_idt9:search-submit': 'j_idt7:searchForm:j_idt9:search-submit',
-            'j_idt7:searchForm': 'j_idt7:searchForm',
-            'j_idt7:searchForm:j_idt9:inputReferences': self.number,
-            'j_idt7:searchForm:j_idt9:inputDateFrom_input': '24-Sep-2020',
-            'j_idt7:searchForm:j_idt9:inputDateTo_input': '04-Dec-2020',
+            'javax.faces.source': 'j_idt6:searchForm:j_idt8:search-submit',
+            'javax.faces.partial.execute': 'j_idt6:searchForm',
+            'javax.faces.partial.render': 'j_idt6:searchForm',
+            'j_idt6:searchForm:j_idt8:search-submit': 'j_idt6:searchForm:j_idt8:search-submit',
+            'j_idt6:searchForm': 'j_idt6:searchForm',
+            'j_idt6:searchForm:j_idt8:inputReferences': self.number,
+            'j_idt6:searchForm:j_idt8:inputDateFrom_input': startdate,
+            'j_idt6:searchForm:j_idt8:inputDateTo_input': enddate,
             'javax.faces.ViewState': jvs,
             }
 

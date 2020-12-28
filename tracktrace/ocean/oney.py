@@ -14,8 +14,8 @@ class ONEYContainerBuilder(object):
         self.instance = None
 
 
-    def __call__(self, container_number, **ignored):
-        self._instance = ONEYContainer(container_number)
+    def __call__(self, container, **ignored):
+        self._instance = ONEYContainer(container)
         return self._instance
 
 

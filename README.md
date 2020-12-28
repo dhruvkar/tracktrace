@@ -37,16 +37,16 @@ Railroads often require an account to track containers. At certain railroads, yo
 For example, BNSF doesn't show any tracking information if your company is not a Notify Party. UP, on the other hand, shows partial tracking information. 
 
 
-| Railroad | Supported | Need Account | Need to be a Notify Party |
-| ---- | :--: | :-------: | :---------: | 
-| BNSF Railway (BNSF) | :white_check_mark:| Yes | Yes |
-| Canadian National Railway (CN) | :white_check_mark: | Yes | Don't know | 
-| Canadian Pacific Railway (CPR) | :white_check_mark:| Yes | Don't know |
-| CSX Transportation (CSX) | :heavy_check_mark: | No | No | 
-| Ferromex | :white_check_mark: | Yes | Don't know | 
-| Kansas City Southern Railway (KCS)| :white_check_mark: | Yes | Don't know | 
-| Norfolk Southern Railway (NS) | :heavy_check_mark: | Yes | No |
-| Union Pacific Railway (UP) | :white_check_mark: | Yes | No | 
+[//]: #| Railroad | Supported | Need Account | Need to be a Notify Party |
+[//]: #| ---- | :--: | :-------: | :---------: | 
+[//]: #| BNSF Railway (BNSF) | :white_check_mark:| Yes | Yes |
+[//]: #| Canadian National Railway (CN) | :white_check_mark: | Yes | Don't know | 
+[//]: #| Canadian Pacific Railway (CPR) | :white_check_mark:| Yes | Don't know |
+[//]: #| CSX Transportation (CSX) | :heavy_check_mark: | No | No | 
+[//]: #| Ferromex | :white_check_mark: | Yes | Don't know | 
+[//]: #| Kansas City Southern Railway (KCS)| :white_check_mark: | Yes | Don't know | 
+[//]: #| Norfolk Southern Railway (NS) | :heavy_check_mark: | Yes | No |
+[//]: #| Union Pacific Railway (UP) | :white_check_mark: | Yes | No | 
 
 
 
@@ -62,9 +62,147 @@ pip install tracktrace
 
 
 ```python
-from tracktrace import ocean
+>>> from tracktrace import ocean
+>>>
+>>> container = "MEDU3288655"
+>>> scac = "MSCU"
+>>> 
+>>> shipment = ocean.container.create(scac=scac, container=container)
+>>>
+>>> shipment.updates
 
-con = ocean.container.create("MSCU", "MEDU3288655")
+[{'location': 'USSTL',
+  'vessel': 'TRUCK',
+  'voyage': '',
+  'movement': 'Empty container returned',
+  'mode': 'TR',
+  'date': DateTime(2020, 12, 11, 15, 44, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USESL',
+  'vessel': 'CSX TRANSPORTATION',
+  'voyage': '',
+  'movement': 'Rail last free day',
+  'mode': '',
+  'date': DateTime(2020, 12, 8, 23, 59, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USSTL',
+  'vessel': 'TRUCK',
+  'voyage': '',
+  'movement': 'Full import container out gated',
+  'mode': 'TR',
+  'date': DateTime(2020, 12, 8, 19, 27, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USESL',
+  'vessel': 'CSX TRANSPORTATION',
+  'voyage': '',
+  'movement': 'Notified',
+  'mode': '',
+  'date': DateTime(2020, 12, 5, 0, 39, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USSTL',
+  'vessel': 'RAIL_CARRIER',
+  'voyage': '',
+  'movement': 'Rail arrived',
+  'mode': '',
+  'date': DateTime(2020, 12, 5, 0, 36, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USESL',
+  'vessel': 'CSX TRANSPORTATION',
+  'voyage': '',
+  'movement': 'Unloaded from rail',
+  'mode': '',
+  'date': DateTime(2020, 12, 5, 0, 33, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USESL',
+  'vessel': 'CSX TRANSPORTATION',
+  'voyage': '',
+  'movement': 'Rail arrived',
+  'mode': '',
+  'date': DateTime(2020, 12, 4, 15, 14, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USVAO',
+  'vessel': 'CSX TRANSPORTATION',
+  'voyage': '',
+  'movement': 'Departed from in transit location',
+  'mode': '',
+  'date': DateTime(2020, 12, 4, 11, 32, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USVAO',
+  'vessel': 'CSX TRANSPORTATION',
+  'voyage': '',
+  'movement': 'Arrived at in-transit location',
+  'mode': '',
+  'date': DateTime(2020, 12, 4, 10, 28, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USEZA',
+  'vessel': 'CSX TRANSPORTATION',
+  'voyage': '',
+  'movement': 'Rail departed',
+  'mode': '',
+  'date': DateTime(2020, 12, 2, 23, 59, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USNYC',
+  'vessel': 'RAIL_CARRIER',
+  'voyage': '',
+  'movement': 'Rail departed',
+  'mode': '',
+  'date': DateTime(2020, 12, 2, 23, 59, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USEZA',
+  'vessel': 'CSX TRANSPORTATION',
+  'voyage': '',
+  'movement': 'Loaded on rail',
+  'mode': '',
+  'date': DateTime(2020, 12, 2, 20, 52, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USNYC',
+  'vessel': 'TRUCK',
+  'voyage': '',
+  'movement': 'Full import container in gated',
+  'mode': 'TR',
+  'date': DateTime(2020, 11, 13, 18, 24, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USNYC',
+  'vessel': 'TRUCK',
+  'voyage': '',
+  'movement': 'Full import container out gated',
+  'mode': 'TR',
+  'date': DateTime(2020, 11, 13, 18, 15, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USNYC',
+  'vessel': 'NORTHERN MAJESTIC',
+  'voyage': '41N',
+  'movement': 'Discharged from vessel',
+  'mode': 'VE',
+  'date': DateTime(2020, 11, 3, 8, 31, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USNYC',
+  'vessel': '',
+  'voyage': '',
+  'movement': 'Vessel arrived',
+  'mode': '',
+  'date': DateTime(2020, 11, 3, 3, 45, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'USNYC',
+  'vessel': '',
+  'voyage': '',
+  'movement': 'In-bond movement authorized ',
+  'mode': '',
+  'date': DateTime(2020, 10, 29, 8, 25, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'BRPEC',
+  'vessel': '',
+  'voyage': '',
+  'movement': 'Vessel departed',
+  'mode': '',
+  'date': DateTime(2020, 10, 26, 1, 7, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'BRPEC',
+  'vessel': 'NORTHERN MAJESTIC',
+  'voyage': '41N',
+  'movement': 'Loaded on vessel',
+  'mode': 'VE',
+  'date': DateTime(2020, 10, 25, 17, 43, 0, tzinfo=Timezone('UTC'))},
+ {'location': '',
+  'vessel': '',
+  'voyage': '',
+  'movement': 'VGM received',
+  'mode': '',
+  'date': DateTime(2020, 10, 20, 21, 24, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'BRPEC',
+  'vessel': 'TRUCK',
+  'voyage': '',
+  'movement': 'Full export container in gated',
+  'mode': 'TR',
+  'date': DateTime(2020, 10, 20, 18, 54, 0, tzinfo=Timezone('UTC'))},
+ {'location': 'BRFOR',
+  'vessel': 'TRUCK',
+  'voyage': '',
+  'movement': 'Empty out for booking',
+  'mode': 'TR',
+  'date': DateTime(2020, 10, 19, 9, 37, 0, tzinfo=Timezone('UTC'))}]
 
 ```
 

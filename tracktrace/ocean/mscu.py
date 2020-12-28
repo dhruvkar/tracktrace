@@ -15,8 +15,8 @@ class MSCUContainerBuilder(object):
         self._instance = None
 
 
-    def __call__(self, container_number, **_ignored):
-        self._instance = MSCUContainer(container_number)
+    def __call__(self, container, **_ignored):
+        self._instance = MSCUContainer(container)
         return self._instance
 
 

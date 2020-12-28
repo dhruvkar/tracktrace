@@ -15,9 +15,9 @@ class APLUContainerBuilder(object):
         self._instance = None
 
 
-    def __call__(self, container_number, **_ignored):
+    def __call__(self, container, **_ignored):
         if not self._instance:
-            self._instance = APLUContainer(container_number)
+            self._instance = APLUContainer(container)
         return self._instance
 
 

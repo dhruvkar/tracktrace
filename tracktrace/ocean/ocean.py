@@ -24,6 +24,12 @@ from . import utils
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
+
+
+# countries and states as per ISO 3166 - https://www.iso.org/obp/ui/#search/code/
+# cities as per UN LOCODES - https://www.unece.org/cefact/locode/service/location
+
+
 ## TEST DATA
 
 # Hapag Lloyd - timezone given UTC
@@ -41,25 +47,6 @@ citylocode_test = ["St Louis USSTL", "Louisville USLUI", "Norfolk USORF", "Santo
 
 
 
-# countries and states as per ISO 3166 - https://www.iso.org/obp/ui/#search/code/
-# cities as per UN LOCODES - https://www.unece.org/cefact/locode/service/location
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
 container_factory = ContainerFactory()
 container_factory.register_builder("MSCU", MSCUContainerBuilder())
 container_factory.register_builder("HLCU", HLCUContainerBuilder())
@@ -68,14 +55,6 @@ container_factory.register_builder("HLCU", HLCUContainerBuilder())
 ##
 # Need to add correct timezone parsing for updates
 ##
-
-
-
-
-
-
-
-
 
 
         
