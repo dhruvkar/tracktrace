@@ -9,16 +9,16 @@ Major steamship lines all have container tracking on their websites and/or apps.
 
 | Steamship Line   |SCAC | Supported     | Container Tracking Website | iOS App | Android App |
 | -------------    | :---------: | :-------------: | :---------------: | :----: | :---------: |
-| Alianca          | ANRM |   :heavy_check_mark:| [Link](https://www.alianca.com.br/alianca/en/alianca/ecommerce_alianca/track_trace_alianca/index.html)  | No | No |
-| APL              | APLU |   :heavy_check_mark | [Link](https://www.apl.com/ebusiness/tracking)  | [Yes](https://apps.apple.com/us/app/apl-shipping/id1316352566?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.apl.mobile)
-| Arkas Container Transport |ARKU | :white_check_mark:| [Link](https://webtracking.arkasline.com.tr/shipmenttracking) | No | No |
+| Alianca          | ANRM | :heavy_check_mark: | [Link](https://www.alianca.com.br/alianca/en/alianca/ecommerce_alianca/track_trace_alianca/index.html)  | No | No |
+| APL              | APLU | :heavy_check_mark: | [Link](https://www.apl.com/ebusiness/tracking)  | [Yes](https://apps.apple.com/us/app/apl-shipping/id1316352566?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.apl.mobile)
+| Arkas Container Transport |ARKU | :white_check_mark: | [Link](https://webtracking.arkasline.com.tr/shipmenttracking) | No | No |
 | CMA CGM          | CMDU | :heavy_check_mark: | [Link](https://www.cma-cgm.com/ebusiness/tracking)  | [Yes](https://apps.apple.com/us/app/cma-cgm/id976582997?ign-mpt=uo%3D4) | No | 
-| Cosco            | COSU | :white_check_mark:| [Link](https://elines.coscoshipping.com/ebusiness/cargoTracking)  | [Yes](https://apps.apple.com/us/app/cosco-shipping-lines/id998446230?ign-mpt=uo%3D4) | No |
+| Cosco            | COSU | :white_check_mark: | [Link](https://elines.coscoshipping.com/ebusiness/cargoTracking)  | [Yes](https://apps.apple.com/us/app/cosco-shipping-lines/id998446230?ign-mpt=uo%3D4) | No |
 | Emirates Shipping Line | ESPU |:white_check_mark: | [Link](https://www.emiratesline.com/cargo-tracking/) | [Yes](https://apps.apple.com/us/app/esl-mobile/id1106834658?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.emiratesline.android) |
-| Evergreen        | EGLV |:white_check_mark:| [Link](https://www.shipmentlink.com/servlet/TDB1_CargoTracking.do)  | No | [Yes](https://play.google.com/store/apps/details?id=com.shipmentlink.mobile) |
-| Hamburg SUD      | SUDU |:heavy_check_mark:| [Link](https://www.hamburgsud-line.com/liner/en/liner_services/ecommerce/track_trace/index.html) | No | No |
-| Hapag Lloyd      | HLCU | :heavy_check_mark:| [Link](https://www.hapag-lloyd.com/en/online-business/tracing/tracing-by-container.html)  | [Yes](https://apps.apple.com/us/app/hapag-lloyd/id935668102?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.hlag.fit) |
-| Hyundai Merchant Marine (HMM) |HDMU |:white_check_mark:| [Link](https://www.hmm21.com/cms/business/ebiz/trackTrace/trackTrace/index.jsp) | [Yes](https://apps.apple.com/us/app/hmm-shiptrack/id590402800?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.hmm.mobileapp) |
+| Evergreen        | EGLV |:white_check_mark: | [Link](https://www.shipmentlink.com/servlet/TDB1_CargoTracking.do)  | No | [Yes](https://play.google.com/store/apps/details?id=com.shipmentlink.mobile) |
+| Hamburg SUD      | SUDU | :heavy_check_mark: | [Link](https://www.hamburgsud-line.com/liner/en/liner_services/ecommerce/track_trace/index.html) | No | No |
+| Hapag Lloyd      | HLCU | :heavy_check_mark: | [Link](https://www.hapag-lloyd.com/en/online-business/tracing/tracing-by-container.html)  | [Yes](https://apps.apple.com/us/app/hapag-lloyd/id935668102?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.hlag.fit) |
+| Hyundai Merchant Marine (HMM) |HDMU | :white_check_mark:| [Link](https://www.hmm21.com/cms/business/ebiz/trackTrace/trackTrace/index.jsp) | [Yes](https://apps.apple.com/us/app/hmm-shiptrack/id590402800?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.hmm.mobileapp) |
 | Maersk           | MAEU |:white_check_mark:| [Link](https://www.maersk.com/tracking/)  | [Yes](https://apps.apple.com/us/app/maersk-shipment/id1163233195?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.maersk.trackandtrace.maerskline) | 
 | Matson           | MATS   |:white_check_mark:| [Link](https://www.matson.com/shipment-tracking.html) | [Yes](https://apps.apple.com/us/app/track-my-container/id1299640687?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.matson.containertrack) | 
 | Mediterranean Shipping Company (MSC) |MSCU |:heavy_check_mark:| [Link](https://www.msc.com/track-a-shipment?agencyPath=mwi) | [Yes](https://apps.apple.com/us/app/mymsc/id1454791941?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.MSC.myMSCApp) |
