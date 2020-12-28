@@ -207,7 +207,7 @@ pip install tracktrace
 
 ## Release History
 
-* 0.0.1
+* 0.0.5
     * Work in progress
 
 ## Meta
