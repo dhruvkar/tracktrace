@@ -39,14 +39,14 @@ For example, BNSF doesn't show any tracking information if your company is not a
 
 | Railroad | Supported | Need Account | Need to be a Notify Party |
 | ---- | :--: | :-------: | :---------: | 
-| BNSF Railway (BNSF) | Not yet | Yes | Yes |
-| Canadian National Railway (CN) | Not yet | Yes | Don't know | 
-| Canadian Pacific Railway (CPR) | Not yet | Yes | Don't know |
-| CSX Transportation (CSX) | Yes | No | No | 
-| Ferromex | Not yet | Yes | Don't know | 
-| Kansas City Southern Railway (KCS)| Not yet | Yes | Don't know | 
-| Norfolk Southern Railway (NS) | Yes | Yes | No |
-| Union Pacific Railway (UP) | Partially | Yes | No | 
+| BNSF Railway (BNSF) | :white_check_mark:| Yes | Yes |
+| Canadian National Railway (CN) | :white_check_mark: | Yes | Don't know | 
+| Canadian Pacific Railway (CPR) | :white_check_mark:| Yes | Don't know |
+| CSX Transportation (CSX) | :heavy_check_mark: | No | No | 
+| Ferromex | :white_check_mark: | Yes | Don't know | 
+| Kansas City Southern Railway (KCS)| :white_check_mark: | Yes | Don't know | 
+| Norfolk Southern Railway (NS) | :heavy_check_mark: | Yes | No |
+| Union Pacific Railway (UP) | :white_check_mark: | Yes | No | 
 
 
 
