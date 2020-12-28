@@ -14,7 +14,7 @@ Major steamship lines all have container tracking on their websites and/or apps.
 | Arkas Container Transport |ARKU | Not yet     | [Link](https://webtracking.arkasline.com.tr/shipmenttracking) | No | No |
 | CMA CGM          | CMDU |   Yes            | [Link](https://www.cma-cgm.com/ebusiness/tracking)  | [Yes](https://apps.apple.com/us/app/cma-cgm/id976582997?ign-mpt=uo%3D4) | No | 
 | Cosco            | COSU |   Partially            | [Link](https://elines.coscoshipping.com/ebusiness/cargoTracking)  | [Yes](https://apps.apple.com/us/app/cosco-shipping-lines/id998446230?ign-mpt=uo%3D4) | No |
-| Emirates Shipping Line | | Not yet | [Link](https://www.emiratesline.com/cargo-tracking/) | [Yes](https://apps.apple.com/us/app/esl-mobile/id1106834658?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.emiratesline.android) |
+| Emirates Shipping Line | ESPU | Not yet | [Link](https://www.emiratesline.com/cargo-tracking/) | [Yes](https://apps.apple.com/us/app/esl-mobile/id1106834658?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.emiratesline.android) |
 | Evergreen        | EGLV |   Not yet            | [Link](https://www.shipmentlink.com/servlet/TDB1_CargoTracking.do)  | No | [Yes](https://play.google.com/store/apps/details?id=com.shipmentlink.mobile) |
 | Hamburg SUD      | SUDU |   Yes            | [Link](https://www.hamburgsud-line.com/liner/en/liner_services/ecommerce/track_trace/index.html) | No | No |
 | Hapag Lloyd      | HLCU |   Yes       | [Link](https://www.hapag-lloyd.com/en/online-business/tracing/tracing-by-container.html)  | [Yes](https://apps.apple.com/us/app/hapag-lloyd/id935668102?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.hlag.fit) |
