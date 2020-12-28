@@ -1,11 +1,30 @@
 [tool.poetry]
 name = "tracktrace"
-version = "0.1.0"
-description = ""
+version = "0.0.2"
+description = "Track and trace shipping containers across all major steamship lines"
 authors = ["Dhruv Kar <dhruv@wints.org>"]
 
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/dhruvkar/tracktrace"
+repository = "https://github.com/dhruvkar/tracktrace"
+documentation = "https://github.com/dhruvkar/tracktrace"
+keywords = ["shipping container", "track", "trace", "cargo tracking"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Scheduling",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+include = [
+    "LICENSE",
+]
+
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.6"
 requests = "^2.24.0"
 beautifulsoup4 = "^4.9.3"
 lxml = "^4.6.1"

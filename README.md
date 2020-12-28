@@ -54,7 +54,6 @@ For example, BNSF doesn't show any tracking information if your company is not a
 
 
 ```sh
-#TODO (not on pypi yet)
 pip install tracktrace 
 ```
 
