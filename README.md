@@ -9,7 +9,7 @@ Major steamship lines all have container tracking on their websites and/or apps.
 
 | Steamship Line   |SCAC | Supported     | Container Tracking Website | iOS App | Android App |
 | -------------    | :---------: | :-------------: | :---------------: | :----: | :---------: |
-| Alianca          | ANRM |   Yes            | [Link](https://www.alianca.com.br/alianca/en/alianca/ecommerce_alianca/track_trace_alianca/index.html)  | No | No |
+| Alianca          | ANRM |   :heavy_check_mark:| [Link](https://www.alianca.com.br/alianca/en/alianca/ecommerce_alianca/track_trace_alianca/index.html)  | No | No |
 | APL              | APLU |   Yes            | [Link](https://www.apl.com/ebusiness/tracking)  | [Yes](https://apps.apple.com/us/app/apl-shipping/id1316352566?ign-mpt=uo%3D4) | [Yes](https://play.google.com/store/apps/details?id=com.apl.mobile)
 | Arkas Container Transport |ARKU | Not yet     | [Link](https://webtracking.arkasline.com.tr/shipmenttracking) | No | No |
 | CMA CGM          | CMDU |   Yes            | [Link](https://www.cma-cgm.com/ebusiness/tracking)  | [Yes](https://apps.apple.com/us/app/cma-cgm/id976582997?ign-mpt=uo%3D4) | No | 
