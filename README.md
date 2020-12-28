@@ -1,8 +1,7 @@
 # tracktrace
 
-tracktrace allows you to track shipping containers across all major shipping lines as well as [Class 1 North American railways](https://en.wikipedia.org/wiki/Railroad_classes#Class_I).
+Track shipping containers across all major shipping lines as well as [Class 1 North American railways](https://en.wikipedia.org/wiki/Railroad_classes#Class_I).
 
-Major steamship lines all have container tracking on their websites and/or apps.
 
 ### Ocean
 
