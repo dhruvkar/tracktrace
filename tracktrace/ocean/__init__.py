@@ -23,3 +23,4 @@ container.register_builder("SUDU", SUDUContainerBuilder())
 
 # to use:
 # ocean.container.create(<key>, <container_number>)
+# e.g. ocean.container.create("MSCU", "MSCU3270270")
