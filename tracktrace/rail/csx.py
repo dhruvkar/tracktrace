@@ -45,7 +45,7 @@ class CSX(object):
         else:
             return None
 
-    def search_container(self, terminal, container, reference_number=None):
+    def track_container(self, terminal, container, reference_number=None):
         self.container = utils.validate_container_number(container, separate='true')
         self.reference_number = reference_number
 

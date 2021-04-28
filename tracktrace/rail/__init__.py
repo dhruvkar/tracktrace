@@ -1,1 +1,1 @@
-from tracktrace.rail.csx import CSX
+from tracktrace.rail.csx import CSX, TERMINALS
