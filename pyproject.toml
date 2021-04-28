@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tracktrace"
-version = "0.0.5"
+version = "0.0.6"
 description = "Track and trace shipping containers across all major steamship lines"
 authors = ["Dhruv Kar <dhruv@wints.org>"]
 
