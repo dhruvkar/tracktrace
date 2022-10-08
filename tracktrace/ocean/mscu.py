@@ -3,6 +3,8 @@
 import feedparser
 import pendulum
 import requests
+import pandas as pd
+import copy
 
 
 from .base import ShippingContainer
